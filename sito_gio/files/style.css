@@ -1,10 +1,10 @@
 
 body {margin:0px; font:12px "trebuchet MS"; color:#5d5d5d; background:url(../images/bg2.gif) repeat-x; background-color:#fff; }
 
-#container {margin:0px auto; width:1000px;}
+#container {margin:0px auto; width:auto; margin-left: 10%; margin-right: 10%}
 .clear {clear:both;}
 
-.main_center {margin:0px auto; width:900px;}
+.main_center {margin:0px auto; width:auto;}
 
 
 /*****************Globel work *******************/
@@ -22,13 +22,15 @@ span.heading6 {margin:0px; padding:0px 0px 0px 15px;  background:url(../images/b
 #img2 {margin:25px 0px 0px 0px; padding:0px; float:right;}
 /**********************************************/
 #main_panel {clear:both;}
-#main_top_panel { clear:both; height:72px; 	 } 
-#main_top_logo_panel {float:left; width:250px;}
+#main_top_panel { clear:both; height:72px} 
+#main_top_logo_panel {float:left; width:auto;}
+.topimage1 {width: 9%; height: 9%}
+.topimage2 {width: 14%; height: 14%}
 .logo {margin:0px; padding:20px 0px 0px 0px; float:left;}
 .logo h1{margin:0px; padding:0px; font-size:26px; font-weight:normal; color:#000;}
 
 
-#navigation_panel {float:right; width:275px;}
+#navigation_panel {float:right; width:auto;}
 #topmenu { margin:0px; padding:28px 0px 0px 0px; }
 #topmenu ul {margin:0px; padding:0px;}
 
@@ -68,28 +70,29 @@ span.heading6 {margin:0px; padding:0px 0px 0px 15px;  background:url(../images/b
 	background:url(../images/topmenuright.gif) right  bottom no-repeat;
 }
 
-#banner_principale{padding:5px 0 5px 0;width:980px;}
-.top_left{float:left;width:250px;background-color:#90A4AE;padding:10px;font-size:14px;color:#ffffff;line-height:22px;}
+#banner_principale{padding:5px 0 5px 0;width:auto; background-color: #F0F8FF}
+.top_left{float:left;width:20%;background-color:#90A4AE;padding:10px;font-size:14px;color:#ffffff;line-height:22px;}
 .top_left h3{font-size:20px;padding:0px;margin:2px 0 4px 0;}
-#img_banner{float:left;margin-left:10px;width:700px;height:202px;}
+#img_banner{margin-right: 10%; margin-left: 10% ;width: auto;height:auto;}
 
-#contenitore{width:980px;}
-#centro_left{float:left;width:600px;font-size:13px;color:#000000;}
-#centro_left_2liv{float:left;width:900px;font-size:13px;color:#000000;}
+#contenitore{width:auto;}
+#centro_left{float:left;width:60%;font-size:13px;color:#000000;}
+#centro_left_2liv{float:left;width:90%;font-size:13px;color:#000000;}
 #centro_left ul ul{margin-left:4px;padding-left:10px;}
 #centro_left ol ol{margin-left:4px;padding-left:10px;}
 #titolo_principale{color:#0167a1;}
 #titolo_h4{color:#0000ff;}
+.rightimage{margin-top: 13px; margin-right: 13px; float: right; box-shadow:  10px  10px 5px #dedede, -10px -10px 5px #dedede, 10px -10px 5px #dedede, -10px  10px 5px #dedede}
 
-.centro_right{float:right;width:300px;padding:5px; margin:10px 0 50px 0;background-color:#efefef;border:1px solid #cfcfcf;font-size:13px;}
+.centro_right{float:right;width:30%;padding:5px; margin:10px 0 50px 0;background-color:#efefef;border:1px solid #cfcfcf;font-size:13px;}
 .centro_right a{color:#c80404;}
 .centro_right ul ul{margin-left:4px;padding-left:10px;}
 
-.centro_right2{float:right;width:300px;padding:5px; margin:0px;background-color:#ffffff;}
+.centro_right2{float:right;width:30%;padding:5px; margin:0px;background-color:#ffffff;}
 
 
 /************************/
-#main_footer_panel { clear:both; background-color:#393838; position: fixed; width: 100%; bottom: 0}
+#main_footer_panel {text-align: center; clear:both; background-color:#393838; width: auto; bottom: 0}
 .main_footer_controller {margin:0px; padding:0px; }
 .main_footer_details {margin:0px; padding:30px 0px 30px 0px;}
 .main_footer_details h4 {margin:0px; padding:0px 0px 0px 0px; text-align: center; font-size:12px; font-weight: normal; color:#c5c4c4; }
