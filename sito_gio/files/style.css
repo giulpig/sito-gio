@@ -1,0 +1,104 @@
+
+body {margin:0px; font:12px "trebuchet MS"; color:#5d5d5d; background:url(../images/bg2.gif) repeat-x; background-color:#fff; }
+
+#container {margin:0px auto; width:1000px;}
+.clear {clear:both;}
+
+.main_center {margin:0px auto; width:900px;}
+
+
+/*****************Globel work *******************/
+span.heading1 {margin:0px; padding:0px 0px 20px 55px;  background:url(../images/img1.gif) no-repeat left; }
+span.heading2 {margin:0px; padding:0px 0px 20px 85px;  background:url(../images/img2.gif) no-repeat left; }
+span.heading3 {margin:0px; padding:0px 0px 5px 35px;  background:url(../images/img9.gif) no-repeat left; }
+span.heading4 {margin:0px; padding:0px 0px 5px 35px;  background:url(../images/img4.gif) no-repeat left; }
+span.heading5 {margin:0px; padding:10px 0px 10px 45px;  background:url(../images/img8.gif) no-repeat left; }
+span.heading6 {margin:0px; padding:0px 0px 0px 15px;  background:url(../images/bullet.gif) no-repeat left; }
+
+
+.more_button {margin:10px 0px 0px 0px; padding:0px;}
+#img {margin:7px 0px 0px 0px; padding:0px;}
+#img1 {margin:5px 0px 0px 0px; padding:0px;}
+#img2 {margin:25px 0px 0px 0px; padding:0px; float:right;}
+/**********************************************/
+#main_panel {clear:both;}
+#main_top_panel { clear:both; height:72px; 	 } 
+#main_top_logo_panel {float:left; width:250px;}
+.logo {margin:0px; padding:20px 0px 0px 0px; float:left;}
+.logo h1{margin:0px; padding:0px; font-size:26px; font-weight:normal; color:#000;}
+
+
+#navigation_panel {float:right; width:275px;}
+#topmenu { margin:0px; padding:28px 0px 0px 0px; }
+#topmenu ul {margin:0px; padding:0px;}
+
+#topmenu ul li { display:block; float:left;  list-style:none;}
+
+#topmenu li a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+	display:block; 
+	float:left; 
+	padding:0px 5px 0px 5px;
+}
+
+#topmenu li a span {
+	display:block;
+	float:left;
+	padding:6px 12px 5px 12px; 
+	cursor:pointer;
+}
+
+#topmenu li a:hover {
+	color:#fff; background:url(../images/topmenuleft.gif) left bottom no-repeat;
+
+}
+
+#topmenu li a:hover span { background:url(../images/topmenuright.gif) right  bottom no-repeat;
+	
+}
+
+#topmenu li a.over {
+	color:#fff;
+	background:url(../images/topmenuleft.gif) left bottom no-repeat; 
+}
+
+#topmenu li a.over span {
+	background:url(../images/topmenuright.gif) right  bottom no-repeat;
+}
+
+#banner_principale{padding:5px 0 5px 0;width:980px;}
+.top_left{float:left;width:250px;background-color:#90A4AE;padding:10px;font-size:14px;color:#ffffff;line-height:22px;}
+.top_left h3{font-size:20px;padding:0px;margin:2px 0 4px 0;}
+#img_banner{float:left;margin-left:10px;width:700px;height:202px;}
+
+#contenitore{width:980px;}
+#centro_left{float:left;width:600px;font-size:13px;color:#000000;}
+#centro_left_2liv{float:left;width:900px;font-size:13px;color:#000000;}
+#centro_left ul ul{margin-left:4px;padding-left:10px;}
+#centro_left ol ol{margin-left:4px;padding-left:10px;}
+#titolo_principale{color:#0167a1;}
+#titolo_h4{color:#0000ff;}
+
+.centro_right{float:right;width:300px;padding:5px; margin:10px 0 50px 0;background-color:#efefef;border:1px solid #cfcfcf;font-size:13px;}
+.centro_right a{color:#c80404;}
+.centro_right ul ul{margin-left:4px;padding-left:10px;}
+
+.centro_right2{float:right;width:300px;padding:5px; margin:0px;background-color:#ffffff;}
+
+
+/************************/
+#main_footer_panel { clear:both; background-color:#393838; position: fixed; width: 100%; bottom: 0}
+.main_footer_controller {margin:0px; padding:0px; }
+.main_footer_details {margin:0px; padding:30px 0px 30px 0px;}
+.main_footer_details h4 {margin:0px; padding:0px 0px 0px 0px; text-align: center; font-size:12px; font-weight: normal; color:#c5c4c4; }
+.main_footer_details p {margin:0px; padding:0px 0px 0px 0px; text-align:center; color:#fff;  font-size:13px; font-weight: normal; }
+.main_footer_details p a {color:#fff; text-decoration:none; margin:0px; padding:0px 5px 0px 5px; }
+.main_footer_details p a:hover {text-decoration:underline;}
+
+
+/* inner pages css start */
+h5{font-size:15px;font-weight:bold; padding:0px 0px 5px 0px; border-bottom:1px dotted #fff;	margin:0px 0px 10px 0px;}
+h6{font-size:16px; font-weight:bold; padding:0px 0px 5px 0px; margin:0px 0px 10px 0px;}
+/* inner pages css ends */
