@@ -55,21 +55,21 @@ span.heading6 {margin:0px; padding:0px 0px 0px 15px;  background:url(../images/b
 }
 
 #topmenu li a:hover {
-	color:#fff; background:url(../images/topmenuleft.gif) left bottom no-repeat;
+	color:#fff; background:#90A4AE left bottom no-repeat;
 
 }
 
-#topmenu li a:hover span { background:url(../images/topmenuright.gif) right  bottom no-repeat;
+#topmenu li a:hover span { background:#90A4AE right  bottom no-repeat;
 	
 }
 
 #topmenu li a.over {
 	color:#fff;
-	background:url(../images/topmenuleft.gif) left bottom no-repeat; 
+	background:#90A4AE left bottom no-repeat; 
 }
 
 #topmenu li a.over span {
-	background:url(../images/topmenuright.gif) right  bottom no-repeat;
+	background:#90A4AE right  bottom no-repeat;
 }
 
 #banner_principale{padding:5px 0 5px 0;width:auto; background-color: #F0F8FF}
