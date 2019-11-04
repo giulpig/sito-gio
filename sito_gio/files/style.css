@@ -61,7 +61,10 @@ body {
 
 #main_top_panel {
     clear: both;
-    height: 85px
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
 }
 
 #main_top_logo_panel {
@@ -96,8 +99,8 @@ body {
 #navigation_panel {
     float: right;
     width: auto;
+    margin-left: 0;
 }
-
 #topmenu {
     margin: 0px;
     padding: 28px 0px 0px 0px;
